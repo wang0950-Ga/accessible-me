@@ -72,6 +72,12 @@ img {
   color: antiquewhite;
 }
 
+.main-nav ul li a:active {
+  background-color: rgba(0, 0, 0, 0.9) ;
+  color: antiquewhite;
+}
+
+
 form input,
 form textarea {
   display: block;
@@ -106,6 +112,12 @@ form button:hover {
   padding:1rem;
 }
 
+form button:active {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: antiquewhite;
+  padding:1rem;
+}
+
 footer div {
   margin-top: 2rem;
 }
@@ -120,6 +132,11 @@ footer div a {
 footer div a:hover {
   color: antiquewhite;
   background-color: rgba(0, 0, 0, 0.7);
+} 
+
+footer div a:active {
+  color: antiquewhite;
+  background-color: rgba(0, 0, 0, 0.9);
 } 
 
 .site-footer {
